@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ru">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.9.8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Seminar 3: Исходный файл fraction.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Seminar 3
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.9.8 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function() { init_codefold(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Загрузка...</div>
+<div class="SRStatus" id="Searching">Поиск...</div>
+<div class="SRStatus" id="NoMatches">Не найдено</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">fraction.h</div></div>
+</div><!--header-->
+<div class="contents">
+<a href="fraction_8h.html">См. документацию.</a><div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="preprocessor">#ifndef FRACTION_H</span></div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="preprocessor">#define FRACTION_H</span></div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span> </div>
+<div class="foldopen" id="foldopen00007" data-start="{" data-end="};">
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="structFraction.html">    7</a></span><span class="keyword">struct </span><a class="code hl_struct" href="structFraction.html">Fraction</a> {</div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="structFraction.html#a0e81f0bdfef58ab65594e1178bea9217">    8</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structFraction.html#a0e81f0bdfef58ab65594e1178bea9217">num</a>; </div>
+<div class="line"><a id="l00009" name="l00009"></a><span class="lineno"><a class="line" href="structFraction.html#a4f13c650e1665bc6351c98c400359c44">    9</a></span>    <span class="keywordtype">int</span> <a class="code hl_variable" href="structFraction.html#a4f13c650e1665bc6351c98c400359c44">den</a>; </div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno">   10</span> </div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="structFraction.html#a01d9e5e05bd7d1ed2326b6a1bebeac52">   16</a></span>    <a class="code hl_function" href="structFraction.html#a01d9e5e05bd7d1ed2326b6a1bebeac52">Fraction</a>(<span class="keywordtype">int</span> n = 0, <span class="keywordtype">int</span> d = 1) : <a class="code hl_variable" href="structFraction.html#a0e81f0bdfef58ab65594e1178bea9217">num</a>(n), <a class="code hl_variable" href="structFraction.html#a4f13c650e1665bc6351c98c400359c44">den</a>(d) {}</div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span>};</div>
+</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="fraction_8h.html#aec435dd9597ef29b888ebfbd32da74de">   25</a></span><a class="code hl_struct" href="structFraction.html">Fraction</a> <a class="code hl_function" href="fraction_8h.html#aec435dd9597ef29b888ebfbd32da74de">add</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structFraction.html">Fraction</a>&amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structFraction.html">Fraction</a>&amp; b);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span> </div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno"><a class="line" href="fraction_8h.html#ab2f40beb24f2162cb4767a864fb11155">   33</a></span><a class="code hl_struct" href="structFraction.html">Fraction</a> <a class="code hl_function" href="fraction_8h.html#ab2f40beb24f2162cb4767a864fb11155">multiply</a>(<span class="keyword">const</span> <a class="code hl_struct" href="structFraction.html">Fraction</a>&amp; a, <span class="keyword">const</span> <a class="code hl_struct" href="structFraction.html">Fraction</a>&amp; b);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span> </div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span><span class="keywordtype">void</span> <a class="code hl_function" href="fraction_8h.html#a4a00fc726a374a481ddd26b82c36af64">simplify</a>(<a class="code hl_struct" href="structFraction.html">Fraction</a>&amp; f);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span><span class="preprocessor">#endif </span><span class="comment">// FRACTION_H</span></div>
+<div class="ttc" id="afraction_8h_html_a4a00fc726a374a481ddd26b82c36af64"><div class="ttname"><a href="fraction_8h.html#a4a00fc726a374a481ddd26b82c36af64">simplify</a></div><div class="ttdeci">void simplify(Fraction &amp;f)</div><div class="ttdoc">Упрощает дробь</div><div class="ttdef"><b>Definition</b> fraction.cpp:57</div></div>
+<div class="ttc" id="afraction_8h_html_ab2f40beb24f2162cb4767a864fb11155"><div class="ttname"><a href="fraction_8h.html#ab2f40beb24f2162cb4767a864fb11155">multiply</a></div><div class="ttdeci">Fraction multiply(const Fraction &amp;a, const Fraction &amp;b)</div><div class="ttdoc">Умножает две дроби</div></div>
+<div class="ttc" id="afraction_8h_html_aec435dd9597ef29b888ebfbd32da74de"><div class="ttname"><a href="fraction_8h.html#aec435dd9597ef29b888ebfbd32da74de">add</a></div><div class="ttdeci">Fraction add(const Fraction &amp;a, const Fraction &amp;b)</div><div class="ttdoc">Складывает две дроби</div></div>
+<div class="ttc" id="astructFraction_html"><div class="ttname"><a href="structFraction.html">Fraction</a></div><div class="ttdoc">Структура, представляющая обыкновенную дробь</div><div class="ttdef"><b>Definition</b> fraction.h:7</div></div>
+<div class="ttc" id="astructFraction_html_a01d9e5e05bd7d1ed2326b6a1bebeac52"><div class="ttname"><a href="structFraction.html#a01d9e5e05bd7d1ed2326b6a1bebeac52">Fraction::Fraction</a></div><div class="ttdeci">Fraction(int n=0, int d=1)</div><div class="ttdoc">Конструктор с параметрами</div><div class="ttdef"><b>Definition</b> fraction.h:16</div></div>
+<div class="ttc" id="astructFraction_html_a0e81f0bdfef58ab65594e1178bea9217"><div class="ttname"><a href="structFraction.html#a0e81f0bdfef58ab65594e1178bea9217">Fraction::num</a></div><div class="ttdeci">int num</div><div class="ttdoc">Числитель дроби</div><div class="ttdef"><b>Definition</b> fraction.h:8</div></div>
+<div class="ttc" id="astructFraction_html_a4f13c650e1665bc6351c98c400359c44"><div class="ttname"><a href="structFraction.html#a4f13c650e1665bc6351c98c400359c44">Fraction::den</a></div><div class="ttdeci">int den</div><div class="ttdoc">Знаменатель дроби (≠ 0)</div><div class="ttdef"><b>Definition</b> fraction.h:9</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.8
+</small></address>
+</body>
+</html>
