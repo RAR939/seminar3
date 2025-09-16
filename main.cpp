@@ -4,7 +4,7 @@
 
       int main() {
 
-       Fraction f1 = {1, 2}; // Дробь 1/2
+       Fraction f1 = {1, 3}; // Дробь 1/2
 
        Fraction f2 = {1, 4}; // Дробь 1/4
 
