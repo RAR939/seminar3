@@ -2,21 +2,26 @@
 \hypertarget{fraction_8h_source}{}\label{fraction_8h_source}\mbox{\hyperlink{fraction_8h}{См. документацию.}}
 \begin{DoxyCode}{0}
 \DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ FRACTION\_H}}
-\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ FRACTION\_H}}
-\DoxyCodeLine{00003\ }
-\DoxyCodeLine{00007\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structFraction}{Fraction}}\ \{}
-\DoxyCodeLine{00008\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structFraction_a0e81f0bdfef58ab65594e1178bea9217}{num}};\ }
-\DoxyCodeLine{00009\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structFraction_a4f13c650e1665bc6351c98c400359c44}{den}};\ }
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ FRACTION\_H}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \ \ \ \ \ \ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structFraction}{Fraction}}\ \{}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structFraction_a0e81f0bdfef58ab65594e1178bea9217}{num}};\ \textcolor{comment}{//\ числитель}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \ \ \ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{structFraction_a4f13c650e1665bc6351c98c400359c44}{den}};\ \textcolor{comment}{//\ знаменатель}}
 \DoxyCodeLine{00010\ }
-\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{structFraction_a01d9e5e05bd7d1ed2326b6a1bebeac52}{Fraction}}(\textcolor{keywordtype}{int}\ n\ =\ 0,\ \textcolor{keywordtype}{int}\ d\ =\ 1)\ :\ \mbox{\hyperlink{structFraction_a0e81f0bdfef58ab65594e1178bea9217}{num}}(n),\ \mbox{\hyperlink{structFraction_a4f13c650e1665bc6351c98c400359c44}{den}}(d)\ \{\}}
-\DoxyCodeLine{00017\ \};}
-\DoxyCodeLine{00018\ }
-\DoxyCodeLine{00025\ \mbox{\hyperlink{structFraction}{Fraction}}\ \mbox{\hyperlink{fraction_8h_aec435dd9597ef29b888ebfbd32da74de}{add}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structFraction}{Fraction}}\&\ a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{structFraction}{Fraction}}\&\ b);}
-\DoxyCodeLine{00026\ }
-\DoxyCodeLine{00033\ \mbox{\hyperlink{structFraction}{Fraction}}\ \mbox{\hyperlink{fraction_8h_ab2f40beb24f2162cb4767a864fb11155}{multiply}}(\textcolor{keyword}{const}\ \mbox{\hyperlink{structFraction}{Fraction}}\&\ a,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{structFraction}{Fraction}}\&\ b);}
-\DoxyCodeLine{00034\ }
-\DoxyCodeLine{00041\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{fraction_8h_a4a00fc726a374a481ddd26b82c36af64}{simplify}}(\mbox{\hyperlink{structFraction}{Fraction}}\&\ f);}
-\DoxyCodeLine{00042\ }
-\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{//\ FRACTION\_H}}
+\DoxyCodeLine{00011\ \ \ \ \};}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00013\ \ \ \ \ \ \ \textcolor{comment}{//\ Объявляем\ наши\ функции}}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00027\ \ \ \ \mbox{\hyperlink{structFraction}{Fraction}}\ \mbox{\hyperlink{fraction_8h_aae1b582324307b49108e7de60d91e86a}{add}}(\mbox{\hyperlink{structFraction}{Fraction}}\ a,\ \mbox{\hyperlink{structFraction}{Fraction}}\ b);}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00029\ \ \ \ \mbox{\hyperlink{structFraction}{Fraction}}\ \mbox{\hyperlink{fraction_8h_ab0ab2bec3318c21942f2a4c694723e8e}{multiply}}(\mbox{\hyperlink{structFraction}{Fraction}}\ a,\ \mbox{\hyperlink{structFraction}{Fraction}}\ b);}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00031\ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{fraction_8h_a4a00fc726a374a481ddd26b82c36af64}{simplify}}(\mbox{\hyperlink{structFraction}{Fraction}}\ \&f);\ \textcolor{comment}{//\ упрощаем\ переданную\ дробь}}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \textcolor{preprocessor}{\ \ \ \ \ \ \#endif}}
 
 \end{DoxyCode}

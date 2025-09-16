@@ -2,8 +2,7 @@
 \hypertarget{fraction_8cpp}{}\label{fraction_8cpp}\index{fraction.cpp@{fraction.cpp}}
 {\ttfamily \#include "{}fraction.\+h"{}}\newline
 {\ttfamily \#include $<$iostream$>$}\newline
-Граф включаемых заголовочных файлов для fraction.\+cpp\+:
-\nopagebreak
+Граф включаемых заголовочных файлов для fraction.\+cpp\+:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -16,11 +15,11 @@
 int \mbox{\hyperlink{fraction_8cpp_a9b2ebc40a69dd3ffe6526f855bd32765}{find\+GCD}} (int a, int b)
 \item 
 \mbox{\hyperlink{structFraction}{Fraction}} \mbox{\hyperlink{fraction_8cpp_aae1b582324307b49108e7de60d91e86a}{add}} (\mbox{\hyperlink{structFraction}{Fraction}} a, \mbox{\hyperlink{structFraction}{Fraction}} b)
-\item 
+\begin{DoxyCompactList}\small\item\em Складывает две дроби \end{DoxyCompactList}\item 
 \mbox{\hyperlink{structFraction}{Fraction}} \mbox{\hyperlink{fraction_8cpp_ab0ab2bec3318c21942f2a4c694723e8e}{multiply}} (\mbox{\hyperlink{structFraction}{Fraction}} a, \mbox{\hyperlink{structFraction}{Fraction}} b)
 \item 
 void \mbox{\hyperlink{fraction_8cpp_a4a00fc726a374a481ddd26b82c36af64}{simplify}} (\mbox{\hyperlink{structFraction}{Fraction}} \&f)
-\begin{DoxyCompactList}\small\item\em Упрощает дробь \end{DoxyCompactList}\end{DoxyCompactItemize}
+\end{DoxyCompactItemize}
 
 
 \doxysubsection{Функции}
@@ -30,6 +29,20 @@ void \mbox{\hyperlink{fraction_8cpp_a4a00fc726a374a481ddd26b82c36af64}{simplify}
 \doxysubsubsection{\texorpdfstring{add()}{add()}}
 {\footnotesize\ttfamily \mbox{\hyperlink{structFraction}{Fraction}} add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structFraction}{Fraction}}}]{a,  }\item[{\mbox{\hyperlink{structFraction}{Fraction}}}]{b }\end{DoxyParamCaption})}
 
+
+
+Складывает две дроби 
+
+
+\begin{DoxyParams}{Аргументы}
+{\em a} & Первая дробь для сложения\\
+\hline
+{\em b} & Вторая дробь для сложения\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Возвращает}
+Новая дробь, являющаяся результатом сложения 
+\end{DoxyReturn}
 \Hypertarget{fraction_8cpp_a9b2ebc40a69dd3ffe6526f855bd32765}\label{fraction_8cpp_a9b2ebc40a69dd3ffe6526f855bd32765} 
 \index{fraction.cpp@{fraction.cpp}!findGCD@{findGCD}}
 \index{findGCD@{findGCD}!fraction.cpp@{fraction.cpp}}
@@ -48,13 +61,3 @@ void \mbox{\hyperlink{fraction_8cpp_a4a00fc726a374a481ddd26b82c36af64}{simplify}
 \doxysubsubsection{\texorpdfstring{simplify()}{simplify()}}
 {\footnotesize\ttfamily void simplify (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structFraction}{Fraction}} \&}]{f }\end{DoxyParamCaption})}
 
-
-
-Упрощает дробь 
-
-
-\begin{DoxyParams}{Аргументы}
-{\em f} & Дробь, которая будет изменена по ссылке\\
-\hline
-\end{DoxyParams}
-Делит числитель и знаменатель на их наибольший общий делитель. 
